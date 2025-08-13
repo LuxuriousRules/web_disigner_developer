@@ -215,5 +215,22 @@
 .creative-process__imges{
     width: 88vw;
     height: auto;
-    margin-top: 2vh; margin-bottom: 2vh;
+    margin-top: 3vh; margin-bottom: 3vh;
 }
+/* creative-process__imeges */
+.creative-process__label{
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.creative-process__title{
+    font-weight: 300;
+    line-height: 110%;
+}
+
+.creative-process__line{
+    width: 100%;      
+}
+
