@@ -9,8 +9,7 @@ menu.classList.toggle('open');
 });
 
 
-const name = `Valdimir`;
+alert("Рустамчик Привет!")
 
-function call(name){
-    console.log(`hello ${name} !`);
-}
+const name = prompt("Пойдем в МакПукинс?");
+alert("ЯХААА БЛЯ!")
