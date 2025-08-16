@@ -8,3 +8,9 @@ menu.classList.toggle('open');
 });
 });
 
+
+const name = `Valdimir`;
+
+function call(name){
+    console.log(`hello ${name} !`);
+}
