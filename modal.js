@@ -9,7 +9,3 @@ menu.classList.toggle('open');
 });
 
 
-alert("Рустамчик Привет!")
-
-const name = prompt("Пойдем в МакПукинс?");
-alert("ЯХААА БЛЯ!")
