@@ -667,7 +667,7 @@ color: var(--text-color);
 .openTalk-modal{
     display: none;
     position: absolute;
-    bottom: 62vh; left: 12vw;
+    bottom: 50vh; left: 12vw;
     z-index: 100;
     color: var(--text-color);
     border: 2px solid var(--border-color);
@@ -704,10 +704,25 @@ color: var(--text-color);
 
 .openTalk-modal__input{
     background-color: var(--button-backgroundColor);
+    
 }
  
 .openTalk-modal__input-comment{
     background-color: var(--button-backgroundColor);
     height: clamp(50px, 10vw , 504px );
     
+}
+
+::placeholder{
+    color: black;
+}
+
+.openTalk-modal__btn{
+    margin-top: 1vh;
+    background-color: var(--button-backgroundColor);
+    transition: background-color 0.3s ease;
+}
+
+.openTalk-modal__btn:active{
+    background-color: burlywood;
 }
