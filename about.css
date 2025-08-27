@@ -1,0 +1,19 @@
+ body,html {
+    padding: 0; margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: 'Satoshi', 'chillax', Arial;
+    background-color: var(--background-color);
+ }
+:root{
+    --background-color: #000000;
+    --text-color: #DAC5A7;
+    --tex-fontFamily--chillax: 'chillax';
+    --window-backgroundColor: #19150e;
+    --button-backgroundColor:  #c6b398;
+    --border-color: #463b2d;
+    --promo-fotter-background: #201a0f;
+}
+
