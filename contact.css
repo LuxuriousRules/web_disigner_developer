@@ -285,3 +285,203 @@
         height: auto;
     }
 }
+
+.about{
+    color: var(--text-color);
+    margin: 5.5vw;
+}
+
+.about__info-card{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+
+.about__challenge,
+.about__goal,
+.about__result{
+    border: 1px solid var(--border-color);
+    background-color: var(--window-backgroundColor);
+    padding: 5.5vw;
+}
+
+@media(min-width: 1024px) {
+    .about{
+        display: flex;    
+    }
+    .about__main{
+        flex: 1;
+           
+    }
+    .about__info-card{
+        flex: 1;
+        gap: 3.5vh;   
+    }
+    .about__challenge,
+    .about__goal,
+    .about__result{
+        padding: 1.5vw;
+}
+}
+/*footer*/
+.promo{
+    background-color: var(--promo-fotter-background);    
+}
+.promo__title--wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-color);
+    margin-top: 2.5vh;
+}
+.promo__main{
+    font-size: clamp(32px, calc( 4vw + 1.5vh ), 128px);
+    margin: 0vh;
+}
+.promo__main--italic{
+    font-style: italic;
+    font-weight: 100;
+}
+.promo__description{
+    text-align: center;
+}
+.promo__button{
+    min-width: 164px;
+    max-width: 170px;
+    width: 100vw;
+    height: 41px;
+    background-color: var(--text-color);
+    border: none;
+    font-weight: 100;
+    font-size: clamp(19px, calc( 2vw + 0.5vh ), 128px);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.promo__button:hover{
+    background-color: beige;
+}
+.promo__button:active {
+  transform: scale(0.97);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.promo__icon{
+    margin-left: 1.5vw;
+}
+@media(min-width: 1024px) {
+.promo__button{
+  max-width: 240px;
+  height: auto;
+  font-weight: 100;
+}
+.promo__button--icon-up{
+    position: relative;
+    bottom: 7px; margin: 0; height:auto;
+    font-size: xx-large;
+}
+}
+
+.main-footer{
+    background-color: var(--promo-fotter-background);
+    margin: 0; 
+}
+.main-footer__wrapper{
+    display: flex;
+    padding-top: 2.5vh;
+    flex-direction: column;
+    width: 430px;
+    
+}
+.main-footer__nav-social{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 1.5vw; padding: 1vw; padding-left: 1vw;
+}
+.main-footer__nav-cms{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0; margin-top: 0;
+}
+.main-footer__nav-pages{
+    display: none;
+}
+.main-footer__item-social{
+    display: flex;
+    align-items: center;
+    gap: 1.5vw; padding: 1vw;   
+}
+
+
+a{
+text-decoration: none;
+color: var(--text-color);
+}
+
+.main-footer__item-pages--link{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+}
+
+.main-footer__item-pages--button{
+    background-image: url(images/promo/Vector_up.png);
+    background-position: center right 2vw;
+    background-repeat: no-repeat;
+    background-color: var(--text-color);
+    border: none; width: 28.72vw; height: 3.79vh;
+    padding-right:5vw; padding-left: 1vw; 
+}
+
+.main-footer__copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    color: var(--text-color);
+}
+.main-footer__wrapper-link{
+   display: flex;
+   justify-content: center;
+}
+.main-footer__link{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+.main-footer__copyright--text{
+    font-size: x-small;
+    margin-left: 2.5vw;
+}
+
+@media(min-width: 1024px) {
+    .main-footer__wrapper{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2.5vh;
+    width: 100vw;
+    justify-content: space-around;
+    position: relative;  right: 50px;
+    
+}
+    .main-footer__nav-social,
+    .main-footer__nav-pages,
+    .main-footer__nav-cms{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 2.5vw; padding: 1vw;
+    align-items: center;
+    
+}
+    .main-footer__item-pages--button{
+    background-image: url(images/promo/Vector_up.png);
+    background-position: center left 115px;
+    background-repeat: no-repeat;
+    background-color: var(--text-color);
+    border: none; width: 130px; height: 3.79vh;
+    padding: 5px; padding-left: 1px;
+}
+}
+
