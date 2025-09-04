@@ -328,3 +328,31 @@
 .info__wrapper{
     margin: 4.5vw;
 }
+
+.author__wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 4.5vw; padding: 2.5vw;
+}
+
+.author__wrapper--border{
+    border: 2px solid var(--border-color);
+    background-color: var(--window-backgroundColor);
+}
+
+.author__badge{
+    display: flex;
+    gap: 1.5vw;
+}
+.author__photo{
+    width: clamp(30px, 55vw, 60px);
+    height: auto;
+}
+
+span {
+    opacity: 0.6;
+}
+
+.info__description{
+    opacity: 0.7;
+}
