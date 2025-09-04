@@ -17,3 +17,47 @@
     --promo-fotter-background: #201a0f;
 }
 
+.nav{
+    display: flex;
+    justify-content: center;
+    color: pink;
+    height: 1vh;
+    overflow: hidden;
+    transition: height 0.99s ease;    
+}
+
+.nav:hover{
+    height: 4.5vh;
+}
+.nav__wrapper{
+    display: flex;
+    justify-content: center;
+    border: 2px solid plum;
+    background-color: rgb(245, 63, 245);
+    border-radius: 1vh;
+    gap: 1vw; width: 10vw;
+}
+
+.nav__link{
+    text-decoration: none;
+    color: pink;
+}
+
+.back{
+    border: 2px solid pink;
+    width: clamp(50vw, caclc(50vw, 25vh) 100vw );
+    background-color: plum;
+}
+
+.back__title{
+    color: white;
+    animation: title 10s ease-in-out infinite ;
+}
+
+@keyframes title{
+    0%{transform: translateX(0);}
+    25%{transform: translateX(10vh);
+     border: 2px solid white;}
+    100%{transform: translateX(100vw);}
+
+}
