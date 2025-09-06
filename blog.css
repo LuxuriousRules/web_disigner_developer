@@ -356,3 +356,36 @@ span {
 .info__description{
     opacity: 0.7;
 }
+
+.author-link{
+   
+
+    color: var(--text-color);
+}
+
+.author-link__wrapper{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    gap: 2.5vw;
+}
+
+.author-link__instagram,
+.author-link__twitter,
+.author-link__facebook{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: clamp(215px, 60vw, 512px);
+    border: 2px solid var(--border-color);
+    background-color: var(--window-backgroundColor);
+    gap: 5vw; padding: 1.5vw;
+    
+}
+
+.author-link__vector{
+    width: clamp(16px, 1vw, 17px);
+    height: clamp(16px, 1vh, 17px);
+    position: absolute;
+    right: clamp(25px, 1.3vw, 500px );
+}
